@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const path = require('path');
 const cors = require('cors');
 
-mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-ehhfm.mongodb.net/test?retryWrites=true&w=majority',
+mongoose.connect('link to mongodb atlas cluster',
     {
         useNewUrlParser: true,
     });
